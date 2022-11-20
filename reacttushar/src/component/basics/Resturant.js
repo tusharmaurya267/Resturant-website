@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import "./style.css";
-import Menu from "/menuApi.js";
+// import Menu from "/menuApi.js";
 
 
 const Resturant = () => {
-    const [menudata,setMenuData] = useState(Menu);
-    console.log(menudata)
+    // const [menudata,setMenuData] = useState(Menu);
+    // console.log(menudata)
   return (
     <>
-        <div>Mummy's Kitchen</div>
+        <div><h2 className='tophead'>Mummy's Kitchen</h2></div>
         <div className='card-container'>
             <div className='card'>
                 <div className='card-body'>
