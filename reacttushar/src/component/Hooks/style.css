@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(186, 229, 215);
+}
+
+.center-div{
+    display: inline-block;
+    position: relative;
+    border-color: 2px, solid, black;
+
+    font-size: 30px;
+    text-decoration-color: bisque;
+    text-decoration: aliceblue;
+    text-shadow: beige;
+    text-shadow: bisque;
+
+}
+
+
+.button1{
+    background-color: rgb(13, 151, 105);
+    position: relative;
+    border-color: 2px, solid, black;
+    text-align: center;
+    margin: 90px;
+    padding: 60px;
+    font-size: 60px;
+    text-decoration-color: bisque;
+    text-decoration: aliceblue;
+    text-shadow: beige;
+    text-shadow: bisque;
+}
+.button2{
+    background-color: rgb(10, 104, 73);
+    display: inline-block;
+    position: relative;
+    border-color: 2px, dotted, black;
+    margin: 50px 100px;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+

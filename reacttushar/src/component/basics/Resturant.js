@@ -8,7 +8,11 @@ const uniqueList = [
     ...new Set(
         Menu.map((curElem)=>{
         return curElem.category;
-}))];
+
+    })
+    ),
+    "All",
+];
 
 const Resturant = () => {
     // useStateHooks is used to save elements in the form of key and pair
@@ -18,6 +22,10 @@ const Resturant = () => {
 
 
     const filteredItem=(category)=>{
+        if(category==="All"){
+            setMenuData(Menu);
+            return;
+        }
         const updatedList=Menu.filter((curElem)=>{
             return curElem.category===category;
         });
