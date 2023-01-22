@@ -2,20 +2,21 @@
 // import React from 'react'
 
 import React from 'react'
-import Resturant from './component/basics/Resturant';
+// import Resturant from './component/basics/Resturant';
 // import UseState from './component/Hooks/UseState';
 // import UseEffect from './component/Hooks/UseEffect';
 // import UseReducer from './component/Hooks/UseReducer';
-
+import Todo from './component/To do/todo';
 
 
 const App = () => {
   return (
     <>
-      <div><Resturant></Resturant></div>
+      {/* <div><Resturant></Resturant></div> */}
       {/* <div><UseState></UseState></div> */}
       {/* <div><UseEffect></UseEffect></div> */}
       {/* <div><UseReducer></UseReducer></div> */}
+      <div><Todo></Todo></div>
     </>
     
   )
