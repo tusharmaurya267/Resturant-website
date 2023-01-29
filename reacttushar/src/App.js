@@ -6,7 +6,7 @@ import Resturant from './component/basics/Resturant';
 // import UseState from './component/Hooks/UseState';
 // import UseEffect from './component/Hooks/UseEffect';
 // import UseReducer from './component/Hooks/UseReducer';
-import Todo from './component/To do/todo';
+// import Todo from './component/To do/todo';
 
 
 const App = () => {
