@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from "react";
 import "./style.css";
 
+
 // get the localStorage data back
 const getLocalData = () => {
   const lists = localStorage.getItem("mytodolist");
 
   if (lists) {
     return JSON.parse(lists);
-  } else {
+  }
+  else {
     return [];
   }
 };
@@ -91,7 +93,7 @@ const Todo = () => {
               onChange={(event) => setInputData(event.target.value)}
             />
             {toggleButton ? (
-              <i className="far fa-edit add-btn" onClick={addItem}></i>
+              <i className='fas fa-wrench' onClick={addItem}></i>
             ) : (
               <i className="fa fa-plus add-btn" onClick={addItem}></i>
             )}
@@ -107,7 +109,7 @@ const Todo = () => {
                       className="far fa-edit add-btn"
                       onClick={() => editItem(curElem.id)}></i>
                     <i
-                      className="far fa-trash-alt add-btn"
+                      className="far fa-trash-alt"
                       onClick={() => deleteItem(curElem.id)}></i>
                   </div>
                 </div>
@@ -115,7 +117,7 @@ const Todo = () => {
             })}
           </div>
 
-          {/* rmeove all button  */}
+          {/* remove all button  */}
           <div className="showItems">
             <button
               className="btn effect04"
