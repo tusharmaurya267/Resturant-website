@@ -13,6 +13,7 @@ const App = () => {
   return (
     <>
       <div><Resturant></Resturant></div>
+      
       {/* <div><UseState></UseState></div> */}
       {/* <div><UseEffect></UseEffect></div> */}
       {/* <div><UseReducer></UseReducer></div> */}
